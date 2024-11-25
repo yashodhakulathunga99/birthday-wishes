@@ -1,38 +1,119 @@
-.App {
+/* General App Styling */
+.app {
   text-align: center;
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/img30.jpg");
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.birthday-button {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.birthday-button:hover {
+  background-color: #ff5a4d;
+}
+
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #fef3c7;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.birthday-text {
+  font-size: 36px;
+  color: #ff6f61;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Gallery Styling */
+.gallery {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.gallery h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px;
+}
+
+.gallery-item {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover .gallery-image {
+  transform: scale(1.1);
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #555;
+  margin-top: 50px;
+}
+
+.birthday-message {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #ff6f61;
+  background-color: #fef3c7;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Animation */
+@keyframes fadeIn {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
   }
 }
+
+
