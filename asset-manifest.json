@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/birthday-wishes/static/css/main.399adb7b.css",
-    "main.js": "/birthday-wishes/static/js/main.2eeb57ec.js",
+    "main.css": "/birthday-wishes/static/css/main.59eaa0bf.css",
+    "main.js": "/birthday-wishes/static/js/main.c22b2611.js",
     "static/js/453.9c2b4894.chunk.js": "/birthday-wishes/static/js/453.9c2b4894.chunk.js",
     "static/media/img3.jpg": "/birthday-wishes/static/media/img3.f0baf9b5608c2e18c8a2.jpg",
     "static/media/img2.jpg": "/birthday-wishes/static/media/img2.4b446e17850ab893daa4.jpg",
@@ -35,12 +35,12 @@
     "static/media/img31.jpg": "/birthday-wishes/static/media/img31.c55da92e8c20addaf245.jpg",
     "static/media/img20.jpg": "/birthday-wishes/static/media/img20.21e514dbb127c2ce9723.jpg",
     "index.html": "/birthday-wishes/index.html",
-    "main.399adb7b.css.map": "/birthday-wishes/static/css/main.399adb7b.css.map",
-    "main.2eeb57ec.js.map": "/birthday-wishes/static/js/main.2eeb57ec.js.map",
+    "main.59eaa0bf.css.map": "/birthday-wishes/static/css/main.59eaa0bf.css.map",
+    "main.c22b2611.js.map": "/birthday-wishes/static/js/main.c22b2611.js.map",
     "453.9c2b4894.chunk.js.map": "/birthday-wishes/static/js/453.9c2b4894.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.399adb7b.css",
-    "static/js/main.2eeb57ec.js"
+    "static/css/main.59eaa0bf.css",
+    "static/js/main.c22b2611.js"
   ]
 }
